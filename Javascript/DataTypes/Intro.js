@@ -11,3 +11,14 @@
 //Non Primitives
 // It is capable of storing multiple values as properties
 // Can be created with {}, for instance: {name: "Niranjan", age:25}
+
+let niranjan = {
+    name: "Niranjan Reddy Anugu",
+     Age: 25,
+   sayHi: function(){
+       console.log("Hello  Officer, This is Niranjan Reddy Anugu");
+       return "true";
+   }
+}
+
+console.log(`Hello ${niranjan.name} ${niranjan.Age} ${niranjan.sayHi()}`);
